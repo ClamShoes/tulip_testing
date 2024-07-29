@@ -24,4 +24,4 @@ if st.button('Fetch Coin Status'):
     if coin_status:
         st.write(f"Volume: {coin_status['volume']}")
         st.write(f"Current Price: ${coin_status['price']:.2f}")
-        st.write(f"Previous Price: ${coin_status['previous_price
+        st.write(f"Previous Price: ${coin_status['previous_price']:.2f}")
